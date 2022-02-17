@@ -1,0 +1,100 @@
+user0,female,29,not married
+user1,female,24,married
+user2,female,19,not married
+user3,male,33,not married
+user4,male,23,married
+user5,female,25,not married
+user6,female,27,not married
+user7,female,36,married
+user8,female,51,not married
+user9,female,54,not married
+user10,female,60,married
+user11,male,18,married
+user12,male,57,not married
+user13,female,49,not married
+user14,male,47,married
+user15,male,33,not married
+user16,male,32,not married
+user17,male,51,married
+user18,female,23,not married
+user19,male,28,married
+user20,male,49,married
+user21,male,44,not married
+user22,female,31,not married
+user23,female,55,not married
+user24,male,18,married
+user25,male,30,not married
+user26,female,20,not married
+user27,female,40,not married
+user28,male,54,married
+user29,female,52,married
+user30,male,31,married
+user31,male,19,married
+user32,male,54,not married
+user33,male,38,married
+user34,female,34,married
+user35,male,19,married
+user36,male,27,not married
+user37,male,26,not married
+user38,male,33,not married
+user39,male,42,married
+user40,female,35,not married
+user41,male,50,married
+user42,male,35,not married
+user43,male,54,married
+user44,male,54,married
+user45,female,52,married
+user46,male,20,married
+user47,female,20,married
+user48,male,41,married
+user49,male,29,not married
+user50,female,44,married
+user51,female,18,not married
+user52,male,18,married
+user53,male,47,married
+user54,male,40,not married
+user55,female,33,not married
+user56,male,51,not married
+user57,male,47,not married
+user58,female,42,not married
+user59,female,20,not married
+user60,female,44,married
+user61,female,33,married
+user62,male,44,married
+user63,female,35,not married
+user64,female,32,married
+user65,female,54,not married
+user66,male,44,not married
+user67,male,58,not married
+user68,female,40,married
+user69,male,30,married
+user70,male,59,married
+user71,male,21,not married
+user72,male,24,married
+user73,male,48,not married
+user74,male,20,not married
+user75,female,27,not married
+user76,male,18,married
+user77,male,41,not married
+user78,male,36,not married
+user79,male,20,married
+user80,female,58,not married
+user81,female,37,married
+user82,female,25,not married
+user83,female,60,not married
+user84,male,18,married
+user85,female,19,not married
+user86,female,43,not married
+user87,female,42,not married
+user88,female,44,married
+user89,male,32,married
+user90,female,31,married
+user91,female,56,not married
+user92,male,42,married
+user93,female,21,not married
+user94,female,55,not married
+user95,female,45,not married
+user96,female,44,married
+user97,male,53,not married
+user98,female,26,not married
+user99,male,45,married

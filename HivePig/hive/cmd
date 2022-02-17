@@ -1,0 +1,24 @@
+create table cus_credit (name string, sum int, gender string)
+row format delimited
+fields terminated by ',';
+-- ---
+select * from creditdata
+join customerdata cd on (cd.name = creditdata.name)
+where cd.gender = 'male';
+-- ---
+insert overwrite table cus_credit
+select c.name, cr.sum, c.gender
+from customerdata c join creditdata cr on (c.name = cr.name);
+
+insert overwrite table cus_credit
+select c.name, cr.sum, c.gender
+from customerdata c left outer join creditdata cr on (c.name = cr.name);
+
+insert overwrite table cus_credit
+select c.name, cr.sum, c.gender
+from customerdata c right outer join creditdata cr on (c.name = cr.name);
+
+
+select name, sum(sum) as am from cus_credit group by name;
+
+select gender, sum(sum) as am from cus_credit group by gender;

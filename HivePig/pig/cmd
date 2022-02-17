@@ -1,0 +1,13 @@
+cd /user/hive/warehouse
+
+credit = load './creditdata/creditData.txt' using PigStorage(',') as (client:chararray, value:int, month:int, bank:chararray);
+
+customer = load './customerdata/customerData.txt' using PigStorage(',') as (client:chararray, gender:chararray, age:int, married:chararray);
+
+info = join credit by client, customer by client;
+
+result = foreach info generate value, gender;
+
+groups = group result by gender;
+
+group_sum = foreach groups generate SUM(result.value);

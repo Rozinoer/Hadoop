@@ -1,0 +1,10 @@
+bank0,street160
+bank1,street716
+bank2,street826
+bank3,street459
+bank4,street619
+bank5,street326
+bank6,street369
+bank7,street919
+bank8,street60
+bank9,street232
